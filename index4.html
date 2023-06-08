@@ -1,5 +1,5 @@
 <head>
-    <title>EOChart 3 - V100</title>
+    <title>EOChart 4 - V100</title>
     <link rel="icon" type="image/x-icon" href="./favicon.png">
     <style>
         html,
@@ -67,7 +67,7 @@
             width: 100%;
             height: 100%;
             position: absolute;
-            right: 149px;
+            right: 225px;
         }
 
         #digitC {
@@ -85,12 +85,25 @@
         #groupC {
             margin: 0px;
             
-            height: 36px;
+            height: 50px;
             width: 100%;
             right: 149px; 
             margin: 0px;
             padding: 0px;
             border: 0px;
+        }
+
+        #tickframe{
+            /*position: absolute;*/
+           width: 86px;
+            display: flex;
+            justify-content: right;
+           /* right: 100px;*/
+            height: 100%;
+            margin: 0px;
+            padding: 0px;
+            border: 0px;
+            top: 0px;
         }
     </style>
 </head>
@@ -106,6 +119,7 @@
         </div>
         <iframe id="squareifr" src="https://faus1000.github.io/squareview/"></iframe>
  <iframe id="groupifr" src="https://faus1000.github.io/groupsview/"></iframe>
+ <iframe id="tickframe" src="https://faus1000.github.io/tickdigit/index-sidebar-up.html"></iframe>
         <!-- <iframe id="ifr" src="index-sq-tc.html"></iframe>-->
        
     </div>
